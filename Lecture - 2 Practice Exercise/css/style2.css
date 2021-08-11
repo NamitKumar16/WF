@@ -1,0 +1,18 @@
+.bblack {
+    background-color: black;
+}
+
+.tyellow {
+    color: #FFC300;
+}
+
+.heading {
+    font-family: Quicksand;
+    text-align: center;
+    font-size: larger;
+}
+
+.sheading {
+    font-size: 22px;
+    font-family: Roboto;
+}
