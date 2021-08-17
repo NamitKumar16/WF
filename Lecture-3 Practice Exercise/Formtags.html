@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        input {
+            margin-left: 100px;
+        }
+
+        tr {
+            font-family: Quicksand;
+        }
+
+        td {
+            font-family: Quicksand;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="font-family: Quicksand; text-align: center; border: 2px solid red; font-size: x-large;">
+        FORM ELEMENTS
+        <nav>
+            <a href="http://127.0.0.1:5500/Exercises%20and%20Practicals/Lecture-3%20Practice%20Exercise/Formtags.html">Home</a>
+        </nav>
+    </header>
+    <br><br>
+    <main>
+        <table>
+            <tr>
+                <td>
+                    Enter name
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="Enter Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter password
+                </td>
+                <td>
+                    <input type="password" name="password" placeholder="Enter password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Email
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Age
+                </td>
+                <td>
+                    <input type="range" name="age" value="21" min="18" max="60" onchange="output.value=value" step="2">
+                    <output id="output">21</output>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Phone number
+                </td>
+                <td>
+                    <input type="text" name="phone" title="Should be 10 digits" pattern="[0-9]{10}"
+                        placeholder="Enter Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Country
+                </td>
+                <td>
+                    <input type="text" name="country">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Choose Favourite color
+                </td>
+                <td>
+                    <input type="color" name="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter DOB
+                </td>
+                <td>
+                    <input type="date" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Image
+                </td>
+                <td>
+                    <img src="image.jfif" style="height: auto; width: auto;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Video
+                </td>
+                <td>
+                    <video src="video.mp4" height="300px" controls></video>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Audio
+                </td>
+                <td>
+                    <audio src="audio.mp3" controls></audio>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer style="font-family: Quicksand; text-align: center; border: 2px solid black; font-size: x-large;">
+    © 2021 
+    </footer>
+</body>
+
+</html>
