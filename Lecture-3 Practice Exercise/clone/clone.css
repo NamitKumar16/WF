@@ -17,7 +17,7 @@
    text-decoration: none;
    color: black;
  }
- a:hover{
+ a:visited{
    color: #ff1100;
  }
  .ht{
@@ -37,7 +37,7 @@
   }
   .image-box{
     display: flex;
-    height: 100%;
+    height: 500px;
     width: 400%;
     justify-content: space-between;
   }
