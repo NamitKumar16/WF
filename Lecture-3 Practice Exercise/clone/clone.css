@@ -13,6 +13,13 @@
      margin-left: 25px;
      height: 20px;
  }
+ a:link{
+   text-decoration: none;
+   color: black;
+ }
+ a:hover{
+   color: #ff1100;
+ }
  .ht{
      font-family: Roboto;
      color: white;
