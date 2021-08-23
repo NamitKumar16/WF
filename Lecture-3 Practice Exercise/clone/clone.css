@@ -18,7 +18,10 @@
    color: black;
  }
  a:visited{
-   color: #ff1100;
+   color: purple;
+ }
+ a:hover{
+   color: red;
  }
  .ht{
      font-family: Roboto;
