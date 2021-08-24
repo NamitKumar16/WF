@@ -1,0 +1,34 @@
+img {
+    position: absolute;
+    width: 20%;
+    bottom: 0px;
+    left: 45%;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anim {
+    0% {
+        bottom: 0px;
+        left: 45%;
+    }
+    25% {
+        bottom: 45%;
+        left: 0%;
+        transform: rotate(360deg);
+    }
+    50% {
+        bottom: 80%;
+        left: 45%;
+    }
+    75% {
+        bottom: 45%;
+        left: 90%;
+    }
+    100% {
+        bottom: 0px;
+        left: 45%
+    }
+}
