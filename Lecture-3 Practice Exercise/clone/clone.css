@@ -9,6 +9,9 @@
   width: 100%;
   height: 300px;
   color: white;
+  display: flex;
+  font-size: 12px;
+  font-family: Rubik;
 }
  .flipkart{
      margin-left: 200px;
