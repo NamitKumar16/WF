@@ -1,7 +1,18 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
 .topnav {
     background-color: #16592E;
     overflow: hidden;
     height: 60px;
+}
+
+.marquee {
+    background-color: red;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
 }
 
 #dark-green {
@@ -9,7 +20,7 @@
 }
 
 .submit {
-    margin-left: 490px;
+    margin-left: 475px;
     font-size: larger;
     background-color: #16592E;
     color: white;

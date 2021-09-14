@@ -1,0 +1,129 @@
+* {
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  border: 5px solid #16592E;
+}
+
+.background {
+  background: url(https://n3.sdlcdn.com/imgs/a/m/1/Woodland-Green-Color-Casual-Shoes-SDL976663639-2-f0848.jpg) top center no-repeat, url(https://m.media-amazon.com/images/I/81PpJVUllpL._UX675_.jpg) left center no-repeat, url(https://rukminim1.flixcart.com/image/714/857/khxqt8w0-0/shoe/q/6/h/gc-2656117-39-woodland-camel-original-imafxuekghgupqmh.jpeg?q=50) bottom no-repeat;
+  background-size: contain;
+}
+
+.transbox {
+  background-color: rgba(255, 255, 255, 0.541);
+  opacity: 0.8;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.left {
+  width: 35%;
+  text-align: center;
+  background-color: #16592E;
+  color: white;
+}
+
+.middle {
+  width: 65%;
+  text-align: center;
+}
+
+.right {
+  width: 25%;
+  text-align: center;
+}
+
+.video {
+  margin-top: -30px;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  width: 350px;
+  margin-left: 30px;
+}
+
+.box-padding {
+  padding: 7px;
+  background-color: white;
+  color: #16592E;
+  font-family: 'Permanent Marker', cursive;
+  font-size: larger;
+}
+
+.zoom {
+  transition: transform .8s;
+}
+
+.zoom:hover {
+  transform: scale(1.15);
+}
+
+.container-img {
+  max-width: 750px;
+  width: 100%;
+  height: 500px;
+  border: 7px solid #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.image-box {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  justify-content: space-between;
+}
+
+.image-box {
+  animation: imgBox 20s linear infinite;
+}
+
+@keyframes imgBox {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.image-box:hover {
+  animation-play-state: paused;
+}
+
+.image-box .image {
+  width: calc(100% - 100px);
+  height: 100%;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card-img {
+  margin-left: 20px;
+}
+
+.card-text {
+  text-align: left;
+  margin-left: 125px;
+}
