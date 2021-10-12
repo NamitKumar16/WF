@@ -1,7 +1,7 @@
-function* autoGen(){
+function* autoGen() {
     var counter = 1;
-    while(true){
-    yield counter;
-    counter++;
+    while (true) {
+        yield counter;
+        counter++;
     }
 }
