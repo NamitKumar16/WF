@@ -64,7 +64,7 @@ function loadRecords(){
 }
 
 function loadFromServer(){
-    const url = 'https://raw.githubusercontent.com/ssandeep3/wd_cs3/master/products.json';
+    const url = 'https://raw.githubusercontent.com/NamitKumar16/WF/master/CRUD/CRUD/products.json?token=AQU7ZGZZ7BDSGDOKDYDKKVLBN3KOM';
     var promise = fetch(url);
     promise.then(response=>{
         response.json().then(data=>{
